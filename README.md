@@ -11,7 +11,6 @@ show dbs
 ```
 <db name>
 ```
-[screenshot](./Output/Usedb.png)
 
 - Inserta a single document into a mangoDB collection.
 ```
@@ -45,7 +44,7 @@ db.courses.insertMany([
     },
 ])
 ```
-![screenshot](./Output/insertMany.png)
+
 
 - Queries a collection to retrieve documents based on specified criteria. It can be used to search for multiple documents.
 
@@ -55,7 +54,7 @@ find()
 
 findOne()
 ```
-![screenshot](./Output/find.png)
+
 
 - Removes a single document from a collection that matches a specified filter.
 
@@ -65,20 +64,20 @@ deleteOne()
 
 deleteMany()
 ```
-![screenshot](./Output/deleteOne.png)
+
 
 - Modifies the first document that matches a specified filter in a collection, making the specified updates.
 
 ```
 updateOne()
 ```
-![screenshot](./Output/updateOne.png)
+
 
 - Updates multiple documents in a collection that match a specified filter with the specified changes.
 
 ```
 updateMany()
 ```
-![screenshot](./Output/updateMany.png)
+
 
 
