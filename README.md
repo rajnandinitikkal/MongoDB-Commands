@@ -10,9 +10,10 @@ show dbs
 - Switches to the specified database , making it the active database for subsequent operations.
 ```
 <db name>
+ db school
 ```
 
-- Inserta a single document into a mangoDB collection.
+- Insert a single document into a mangoDB collection.
 ```
 insertOne()
 ```
@@ -51,7 +52,8 @@ db.courses.insertMany([
 ``` 
 find()
 1. db.students.find()
-
+```
+```
 findOne()
 ```
 
@@ -71,13 +73,17 @@ deleteMany()
 ```
 updateOne()
 ```
-
+```
+db.courses.updateOne({fees:999}, {$set: {fees:1499}})
+```
 
 - Updates multiple documents in a collection that match a specified filter with the specified changes.
 
 ```
 updateMany()
 ```
-
+```
+db.courses.updateMany({duration:6 month}, {$set: {duration:10 month}})
+```
 
 
